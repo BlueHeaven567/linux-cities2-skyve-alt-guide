@@ -17,7 +17,7 @@ There can be two situations:
 2. You already have a ton of mods (or not so many) and you just installed the game on the system.
    - If this is your case (it was mine), sync to PDX Cloud, and wait until all the mods install on the system (:sob:). Once every mod is installed, you can close the game.
 
-## Step 3: Opening Skyve
+## Step 3: Installing Dependencies
 1. Open ProtonTricks.
    - ``$ protontricks``
 2. Select the game.
@@ -28,6 +28,14 @@ There can be two situations:
    - Select from the list ``dotnet48`` and click OK.
    - It will install dotNET48, as well as all of its dependencies, which are needed for Skyve to run.
    - You will encounter warnings during the installation, you can skip them.
+  
+## Step 4: Opening Skyve
+1. Open ProtonTricks.
+   - ``$ protontricks``
+2. Select the game.
+   - It should be *Cities: Skylines II: 939230*
+   - You can skip every warning that pops up 
+3. Select the default wineprefix.
 4. Enter into the winetricks menu, and click on ***Run an arbitrary executable (.exe/.msi/.msu)***
 5. Find Skyve's installer inside the downloaded mods folder.
    - It should be (at least on my case) on ``/home/yourusername/.local/share/Steam/steamapps/compatdata/949230/pfx/drive_c/users/steamuser/AppData/LocalLow/Colossal\ Order/Cities\ Skylines\ II/.cache/Mods/mods_subscribed/75804_68/Skyve.exe``
@@ -42,7 +50,7 @@ There can be two situations:
 
 # Troubleshooting
 ## Volumetrics not working, outputting a lot of errors.
-- I have to look at why installing dotNET48 creates this problem. Nothing that I currently am able to solve (as of 2025/12/28).
+- I have to look at why, afaik, installing dotNET48 creates this problem. Nothing that I currently am able to solve (as of 2025/12/28).
 
 ## I have errors related to UI when opening the game.
 - Make sure that, at least in the version 1.5.3f1, have all your code mods updated to the latest version from Skyve!
