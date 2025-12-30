@@ -50,7 +50,7 @@ There can be two situations:
 
 # Troubleshooting
 ## Volumetrics not working, outputting a lot of errors.
-- I have to look at why, afaik, installing dotNET48 creates this problem. Nothing that I currently am able to solve (as of 2025/12/28).
+- ~~I have to look at why, afaik, installing dotNET48 creates this problem. Nothing that I currently am able to solve (as of 2025/12/28).~~ EDIT 2025/12/30: Use the mod called *Time And Weather Anarchy* and make a preset with a custom cloudiness value while having volumetric clouds disabled. For some reason, this somehow works (on my system at least), there are volumetric clouds and shadows, and it doesn't throw any errors.
 
 ## I have errors related to UI when opening the game.
 - Make sure that, at least in the version 1.5.3f1, have all your code mods updated to the latest version from Skyve!
